@@ -82,7 +82,7 @@ if __name__ == "__main__":
     
     # 检查命令行参数
     if len(sys.argv) != 2:
-        print("用法: python main.py <数据文件路径>")
+        print("用法: python model_predicting.py <数据文件路径>")
         sys.exit(1)
     
     # 获取数据文件路径
